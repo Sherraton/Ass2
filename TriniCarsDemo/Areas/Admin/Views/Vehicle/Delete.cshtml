@@ -1,0 +1,83 @@
+﻿@model Vehicle
+
+<div class="card shadow border-0 my-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Delete Vehicle</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form method="post">
+            <input asp-for="Id" hidden />
+            <div class="border p-3">
+                @* <div asp-validation-summary="ModelOnly"></div>*@
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Make" disabled class="form-control border-0 shadow " />
+                    <label asp-for="Make" class="ms-2">Vehicle Name</label>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Model" disabled class="form-control border-0 shadow " />
+                    <label asp-for="Model" class="ms-2"></label>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="LicenseNo" disabled class="form-control border-0 shadow " />
+                    <label asp-for="LicenseNo" class="ms-2"></label>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Year" disabled class="form-control border-0 shadow " />
+                    <label asp-for="Year" class="ms-2"></label>
+                    <span asp-validation-for="Year" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="EngineSize" disabled class="form-control border-0 shadow " />
+                    <label asp-for="EngineSize" class="ms-2"></label>
+                    <span asp-validation-for="EngineSize" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Transmission" disabled class="form-control border-0 shadow " />
+                    <label asp-for="Transmission" class="ms-2"></label>
+                    <span asp-validation-for="Transmission" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Features" disabled class="form-control border-0 shadow " />
+                    <label asp-for="Features" class="ms-2"></label>
+                    <span asp-validation-for="Features" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="AdditionalInformation" disabled class="form-control border-0 shadow " />
+                    <label asp-for="AdditionalInformation" class="ms-2"></label>
+                    <span asp-validation-for="AdditionalInformation" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Color" disabled class="form-control border-0 shadow " />
+                    <label asp-for="Color" class="ms-2"></label>
+                    <span asp-validation-for="Color" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Mileage" disabled class="form-control border-0 shadow " />
+                    <label asp-for="Mileage" class="ms-2"></label>
+                    <span asp-validation-for="Mileage" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="AskingPrice" disabled class="form-control border-0 shadow " />
+                    <label asp-for="AskingPrice" class="ms-2"></label>
+                    <span asp-validation-for="AskingPrice" class="text-danger"></span>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-6 col-md-3">
+                        <button type="submit" class="btn btn-danger form-control">Delete</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a asp-controller="Vehicle" asp-action="Index" class="btn btn-outline-primary border form-control ">
+                            Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+

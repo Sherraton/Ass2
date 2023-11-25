@@ -1,0 +1,85 @@
+﻿@model Vehicle
+@using Assignments.Models
+<form method="post">
+    <div class="card shadow border-0 mt-4">
+        <div class="card-header bg-secondary bg-gradient text-light py-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3 class="text-white text-uppercase">@Model.Make @Model.Model</h3>
+                    <p class="text-white-50 fw-semibold mb-0">@Model.LicenseNo</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="py-3">
+                <div class="row">
+                    <div class="col-6 col-md-2 offset-lg-1 pb-1">
+                        <a asp-action="Index" class="btn btn-outline-primary bg-gradient mb-5 fw-semibold btn-sm text-uppercase">
+                            <small>Back to home</small>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-3 offset-lg-1 text-center mb-3">
+                        <img src="@Model.ImageUrl" width="100%" class="rounded" />
+                    </div>
+                    <div class="col-12 col-lg-6 offset-lg-1">
+
+                        <div class="col-12 col-md-6 pb-0">
+                            <span class="badge">@Model.Category.Name</span>
+                        </div>
+
+                        <div class="row pl-2 my-3 border-bottom">
+                            <div class="row pl-2">
+                                <h6 class="text-dark text-opacity-50 ">Year: @Model.Year</h6>
+                            </div>
+                            <div class="row pl-2">
+                                <h6 class="text-dark text-opacity-50 ">Color: @Model.Color</h6>
+                            </div>
+                            <div class="row pl-2">
+                                <h6 class="text-dark text-opacity-50 ">EngineSize: @Model.EngineSize</h6>
+                            </div>
+                            <div class="row pl-2">
+                                <h6 class="text-dark text-opacity-50 ">Mileage: @Model.Mileage</h6>
+                            </div>
+                            <div class="row pl-2">
+                                <h6 class="text-dark text-opacity-50 ">Transmission: @Model.Transmission</h6>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row pl-2 my-3 border-bottom">
+                            <p class="text-secondary lh-sm">Features: @Model.Features</p>
+                            <p class="text-secondary lh-sm">Additional Information: @Model.AdditionalInformation</p>
+                        </div>
+                        
+                        
+                        <div class="row mb-5 border-bottom pb-1">
+                            <div class="row ps-2">
+                                <h6 class="text-dark text-opacity-50 ">Contact Name: </h6>
+                            </div>
+                            <div class="row ps-2">
+                                <h6 class="text-dark text-opacity-50 ">Contact #s: </h6>
+                            </div>
+                            <div class="row ps-2">
+                                <h6 class="text-dark text-opacity-50 ">Contact Email: </h6>
+                            </div> 
+                            <div class="row ps-2">
+                                <h6 class="text-dark text-opacity-50 fs-4 pb-2"> Asking Price: @Model.AskingPrice.ToString("c")</h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            @* <div class="col-12 col-md-6 pb-1">
+                                <button type="submit" disabled
+                                        class="btn btn-primary bg-gradient  w-100 py-2 text-uppercase fw-semibold">
+                                    Add to Cart (Coming Soon...)
+                                </button>
+                            </div> *@
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

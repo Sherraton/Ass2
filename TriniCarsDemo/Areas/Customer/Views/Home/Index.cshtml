@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Vehicle>
+
+<div class="row pb-3">
+    @foreach(var vehicle in Model)
+    {
+            
+        <div class="col-lg-6 ">
+            <div class="row row-cols-2 p-2"> 
+                <div class="col-12 p-1">
+                    <div class="row  justify-content-start">
+                        <div class="col-7">
+                            <div class=" border p-0 border-opacity-10 rounded">
+                                <img src="@vehicle.ImageUrl" class="card-img-top rounded" />
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <div class="card-body pb-0">
+                                <div class="pl-1 text-left">
+                                    <p class="card-title text-dark fs-4"> @vehicle.Make</p>
+                                </div>
+                                <div class="pl-1 text-left">
+                                    <p class="card-title text-dark "><b>Model:</b> @vehicle.Model</p>
+                                    <p class="card-title text-dark "><b>Series:</b> @vehicle.LicenseNo</p>
+                                    <p class="card-title text-dark "><b>Asking Price:</b> <span>@vehicle.AskingPrice.ToString("c")</span></p>
+                                    <p class="card-title text-dark "><b>Contact:</b> </p>
+                                </div>
+                                <div>
+                            <a asp-action="Details"
+                            asp-route-vehicleId="@vehicle.Id"
+                            class="btn btn-primary bg-gradient border-0 form-control">
+                                Details
+                            </a>
+                        </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    }
+</div>

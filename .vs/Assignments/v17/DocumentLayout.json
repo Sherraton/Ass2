@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Moe Dev\\source\\repos\\Assignments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9004C19D-168E-40D3-96FE-118074FC50BC}|TriniCarsDemo\\TriniCarsDemo.csproj|c:\\users\\moe dev\\source\\repos\\assignments\\trinicarsdemo\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9004C19D-168E-40D3-96FE-118074FC50BC}|TriniCarsDemo\\TriniCarsDemo.csproj|solutionrelative:trinicarsdemo\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9004C19D-168E-40D3-96FE-118074FC50BC}|TriniCarsDemo\\TriniCarsDemo.csproj|c:\\users\\moe dev\\source\\repos\\assignments\\trinicarsdemo\\areas\\admin\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9004C19D-168E-40D3-96FE-118074FC50BC}|TriniCarsDemo\\TriniCarsDemo.csproj|solutionrelative:trinicarsdemo\\areas\\admin\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C7696B-1EEF-41D9-8DC1-07A76DD2097D}|Assignments.Models\\Assignments.Models.csproj|c:\\users\\moe dev\\source\\repos\\assignments\\assignments.models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C7696B-1EEF-41D9-8DC1-07A76DD2097D}|Assignments.Models\\Assignments.Models.csproj|solutionrelative:assignments.models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Moe Dev\\source\\repos\\Assignments\\Assignments.Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Assignments.Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Moe Dev\\source\\repos\\Assignments\\Assignments.Models\\Vehicle.cs",
+              "RelativeToolTip": "Assignments.Models\\Vehicle.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAADwvzUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-24T22:23:20.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Moe Dev\\source\\repos\\Assignments\\TriniCarsDemo\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "TriniCarsDemo\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Moe Dev\\source\\repos\\Assignments\\TriniCarsDemo\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "TriniCarsDemo\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAcwEMAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-24T22:08:59.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Moe Dev\\source\\repos\\Assignments\\TriniCarsDemo\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "RelativeDocumentMoniker": "TriniCarsDemo\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Moe Dev\\source\\repos\\Assignments\\TriniCarsDemo\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "RelativeToolTip": "TriniCarsDemo\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-11-24T19:46:43.006Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

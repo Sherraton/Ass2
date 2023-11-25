@@ -1,0 +1,12 @@
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\bin\Debug\net8.0\Assignments.Utility.deps.json
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\bin\Debug\net8.0\Assignments.Utility.dll
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\bin\Debug\net8.0\Assignments.Utility.pdb
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\obj\Debug\net8.0\Assignments.Utility.csproj.AssemblyReference.cache
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\obj\Debug\net8.0\Assignments.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\obj\Debug\net8.0\Assignments.Utility.AssemblyInfoInputs.cache
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\obj\Debug\net8.0\Assignments.Utility.AssemblyInfo.cs
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\obj\Debug\net8.0\Assignments.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\obj\Debug\net8.0\Assignments.Utility.dll
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\obj\Debug\net8.0\refint\Assignments.Utility.dll
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\obj\Debug\net8.0\Assignments.Utility.pdb
+C:\Users\Moe Dev\source\repos\Assignments\Assignments.Utility\obj\Debug\net8.0\ref\Assignments.Utility.dll
